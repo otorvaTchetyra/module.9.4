@@ -26,8 +26,6 @@ class MysticBall:
 
     def __call__(self):
         return choice(self.words)
-
-# Пример использования
 first_ball = MysticBall('Да', 'Нет', 'Наверное')
 print(first_ball())  # Вывод: Да (или другое)
 print(first_ball())  # Вывод: Да (или другое)
